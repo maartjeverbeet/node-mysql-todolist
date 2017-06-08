@@ -11,6 +11,7 @@ var auth_routes_v1 = require('./api/authentication.routes.v1');
 var config = require('./config/config');
 var expressJWT = require('express-jwt');
 
+
 var app = express();
 
 // bodyParser zorgt dat we de body uit een request kunnen gebruiken,
